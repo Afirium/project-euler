@@ -11,8 +11,10 @@ import math
 
 rng = 9999999999999999999999999
 
+
 def sum_divisible_by(a):
     p = math.floor(rng / a)
-    return a * (p*(p+1)) / 2
+    return a * (p * (p + 1)) / 2
+
 
 print(sum_divisible_by(3) + sum_divisible_by(5) - sum_divisible_by(15))
